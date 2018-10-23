@@ -1,0 +1,22 @@
+.content {
+  article {
+    .post-after-meta {
+      border-bottom: 1px solid rgba(0, 0, 0, .1);
+      margin-top: 1.7rem;
+      padding-bottom: .6rem;
+
+      .post-datetime {
+        color: #b8b8b6;
+        font-size: .8em;
+      }
+    }
+
+    .post-submeta {
+      margin-top: .4rem;
+    }
+
+    .post-subtitle {
+      font-size: 1.25em;
+    }
+  }
+}
