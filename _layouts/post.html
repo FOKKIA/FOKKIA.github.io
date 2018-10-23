@@ -3,7 +3,7 @@ layout: default
 ---
 <main class="content" role="main">
   <article class="post">
-    <div class="post-meta">
+    <div class="post-meta-in">
       <h1 class="post-title">{{ page.title }}</h1>
       <div class="post-submeta">
         <span class="post-subtitle">
@@ -17,7 +17,11 @@ layout: default
       {{content}}
     </section>
     <footer class="post-footer">
-
+      {% for tag in page.tags %}
+      <a class="post-tag" href="/tags/{{ tag }}">
+        #{{ tag }}
+      </a>
+      {% endfor %}
     </footer>
     <div class="bottom-teaser cf">
       <div class="isLeft">

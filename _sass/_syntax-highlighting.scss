@@ -1,4 +1,4 @@
-$code-font-family: Menlo, Monaco, "Courier New", monospace !default;
+$code-font-family: "Noto Mono for Powerline", Menlo, Monaco, "Courier New", monospace !default;
 $code-color: #bf616a !default;
 
 code,
@@ -11,7 +11,6 @@ code {
     font-size: 85%;
     color: $code-color;
     background-color: #f9f9f9;
-    border-radius: 3px;
 }
 
 pre {
@@ -28,16 +27,16 @@ pre code {
 
 // Pygments/Rouge via Jekyll
 .highlight {
-    padding: 1rem;
-    margin-bottom: 1rem;
+    margin-top: .4rem;
+    margin-bottom: .8rem;
     font-size: .8rem;
     line-height: 1.4;
     background-color: #f9f9f9;
-    border-radius: .25rem;
 
     pre {
         margin-bottom: 0;
         overflow-x: auto;
+        padding: 1rem;
     }
 
     .lineno {

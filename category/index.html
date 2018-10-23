@@ -1,0 +1,12 @@
+---
+layout: page
+title: Categories
+permalink: /category/
+---
+<ul>
+    {% for category in site.categories %}
+    <li>
+        <a href="{{ category[0] | slugify }}" class="post-tag">{{ category[0] }}</a>
+    </li>
+    {% endfor %}
+</ul>

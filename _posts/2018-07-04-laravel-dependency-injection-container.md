@@ -15,7 +15,7 @@ tags: [php,laravel]
 이 문서에서는 의존성 주입과 제어의 역전 원칙에 대해 설명하지 않습니다. 이것들에 대해 익숙하지 않으시다면 [What is Dependency Injection?](http://fabien.potencier.org/what-is-dependency-injection.html) by Fabien Potencier ([Symfony](http://symfony.com/) framework 의 메인테이너) 가 작성한 글을 참고하실 수 있습니다.
 
 
-# 컨테이너 접근
+## 컨테이너 접근
 
 라라벨의 컨테이너 인스턴스에 접근하는 방법은 여러가지가 있습니다. 그러나 가장 간단한 방법은 `app()` 헬퍼 메소드를 호출하는 것입니다.
 
